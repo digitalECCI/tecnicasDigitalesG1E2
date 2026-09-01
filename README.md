@@ -8,8 +8,8 @@ Este es el repositorio del la asignatura técnicas digitales, Grupo 1 - Equipo 2
 
 ## Integrantes
   * Andres Felipe Martin Torres
-    Wilmar andrey gil cupacan
-    Carlos Rafael Herrera Gamarra
+  * Wilmar andrey gil cupacan
+  * Carlos Rafael Herrera Gamarra
 
 
 
