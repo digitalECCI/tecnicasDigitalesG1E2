@@ -130,16 +130,7 @@ Lab01-Logica-Combinacional/
 - **Síntesis e implementación:** Intel Quartus Prime
 - **Tarjeta de desarrollo:** DE10-Lite (Intel MAX 10)
 
-## Entregables
 
-- [x] Descripción de hardware de las Partes 1, 2 y 3
-- [x] Explicación de cada parte en este informe
-- [x] Evidencias de simulación
-- [x] Implementación en la tarjeta de desarrollo (Quartus + DE10-Lite)
-
----
-
-**Contacto:** Wilmar Andrey Gil — wilmaran.gilcu@ecci.edu.co
 
 
 
