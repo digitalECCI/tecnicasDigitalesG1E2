@@ -93,6 +93,10 @@ El sumador completo de 1 bit (Parte 3) fue sintetizado e implementado sobre la t
 ## 6. Resultados y evidencias
 
 Las capturas de las formas de onda (waveforms) de cada simulación, así como las evidencias fotográficas/video del funcionamiento en hardware, se encuentran documentadas en las respectivas carpetas `sim/` de cada parte y en `docs/images/`.
+<img width="1048" height="1600" alt="image" src="https://github.com/user-attachments/assets/786d2f4c-4ae5-4774-bd67-356c2196187c" />
+
+<img width="970" height="1600" alt="image" src="https://github.com/user-attachments/assets/46abd1dd-665d-408a-899b-b73c8c9d528d" />
+
 
 ## 7. Conclusiones
 
