@@ -228,17 +228,3 @@ Complete este análisis con las observaciones obtenidas en las simulaciones y en
 - El sumador de dos operandos de tres bits requiere cuatro bits para representar el resultado máximo de 14.
 - La validación final depende de comprobar las formas de onda, las asignaciones de pines y el funcionamiento real en la DE10-Lite.
 
-## 9. Estructura sugerida del repositorio
-
-```text
-Lab03-7-segmentos/
-├── README.md
-├── src/
-│   ├── display_7seg.v
-│   └── sumador_3bits.v
-└── evidencias/
-    ├── parte1_simulacion.png
-    ├── parte1_tarjeta.jpg
-    ├── parte2_simulacion.png
-    └── parte2_tarjeta.jpg
-```
