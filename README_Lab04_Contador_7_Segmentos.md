@@ -88,11 +88,4 @@ Agregar aquí una fotografía del circuito funcionando.
 - El decodificador de siete segmentos permite visualizar los valores almacenados como dígitos decimales.
 - Los switches permiten seleccionar la velocidad y el botón de reset restablece el estado inicial.
 
-## 9. Lista de verificación
 
-- [ ] Código HDL compilado correctamente.
-- [ ] Simulación del conteo y del reinicio.
-- [ ] Verificación de las cuatro velocidades.
-- [ ] Asignación correcta de pines.
-- [ ] Prueba física en la DE10-Lite.
-- [ ] Evidencias agregadas al repositorio.
