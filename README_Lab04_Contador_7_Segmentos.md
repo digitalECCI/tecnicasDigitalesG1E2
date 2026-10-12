@@ -63,13 +63,11 @@ La simulación debe comprobar:
 
 Agregar aquí la captura de las formas de onda.
 
-![Simulación del contador](evidencias/simulacion.png)
 
 **Implementación en la FPGA DE10-Lite**
 
 Agregar aquí una fotografía del circuito funcionando.
 
-![Implementación física](evidencias/implementacion_fpga.jpg)
 
 ## 7. Implementación en Quartus Prime
 
