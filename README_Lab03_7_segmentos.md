@@ -242,13 +242,3 @@ Lab03-7-segmentos/
     ├── parte2_simulacion.png
     └── parte2_tarjeta.jpg
 ```
-
-## 10. Verificación antes de entregar
-
-- [ ] Completar nombres, asignatura y fecha.
-- [ ] Confirmar el dispositivo FPGA y el archivo de asignaciones de pines.
-- [ ] Compilar ambos módulos en Quartus sin errores.
-- [ ] Ejecutar y capturar las simulaciones de las dos partes.
-- [ ] Probar el diseño en la tarjeta, si se solicita.
-- [ ] Guardar las evidencias con los nombres indicados o actualizar las rutas de las imágenes.
-- [ ] Verificar que las imágenes se vean en GitHub después de subirlas.
