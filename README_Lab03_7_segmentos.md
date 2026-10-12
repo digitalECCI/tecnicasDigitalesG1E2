@@ -3,8 +3,7 @@
 **Asignatura:** Sistemas Digitales / Lógica Digital  
 **Tarjeta de desarrollo:** Intel/Altera DE10-Lite  
 **Herramienta:** Quartus Prime y simulador HDL  
-**Estudiante(s):** Wilmar Andrey Gil 127037 - Andres Felipe Martn Torres 
-**Fecha:** [Escriba la fecha]
+**Estudiante(s):** Wilmar Andrey Gil 127037 - Andres Felipe Martn Torres 136881
 
 ## 1. Objetivos
 
