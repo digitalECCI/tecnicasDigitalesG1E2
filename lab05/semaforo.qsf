@@ -1,0 +1,81 @@
+# =============================================================================
+# Lab 05 - Semáforo vehicular + peatonal (FSM Moore) | DE10-Lite (MAX 10 10M50DAF484C7G)
+# =============================================================================
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name TOP_LEVEL_ENTITY semaforo
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NUM_PARALLEL_PROCESSORS ALL
+
+# ---- Fuentes ----------------------------------------------------------------
+set_global_assignment -name VERILOG_FILE semaforo.v
+set_global_assignment -name VERILOG_FILE clk_divider.v
+set_global_assignment -name VERILOG_FILE traffic_light.v
+set_global_assignment -name VERILOG_FILE debounce.v
+set_global_assignment -name VERILOG_FILE ped_alarm.v
+set_global_assignment -name VERILOG_FILE display7seg.v
+set_global_assignment -name SDC_FILE semaforo.sdc
+
+# ---- Reloj 50 MHz -----------------------------------------------------------
+set_location_assignment PIN_P11 -to MAX10_CLK1_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MAX10_CLK1_50
+
+# ---- Botones (activos en bajo): KEY0 = botón peatonal, KEY1 = reset ---------
+set_location_assignment PIN_B8 -to KEY[0]
+set_location_assignment PIN_A7 -to KEY[1]
+set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to KEY[1]
+
+# ---- LEDs -------------------------------------------------------------------
+set_location_assignment PIN_A8  -to LEDR[0]
+set_location_assignment PIN_A9  -to LEDR[1]
+set_location_assignment PIN_A10 -to LEDR[2]
+set_location_assignment PIN_B10 -to LEDR[3]
+set_location_assignment PIN_D13 -to LEDR[4]
+set_location_assignment PIN_C13 -to LEDR[5]
+set_location_assignment PIN_E14 -to LEDR[6]
+set_location_assignment PIN_D14 -to LEDR[7]
+set_location_assignment PIN_A15 -to LEDR[8]
+set_location_assignment PIN_B11 -to LEDR[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[*]
+
+# ---- Display HEX0 (unidades de los segundos restantes) ----------------------
+set_location_assignment PIN_C14 -to HEX0[0]
+set_location_assignment PIN_E15 -to HEX0[1]
+set_location_assignment PIN_C15 -to HEX0[2]
+set_location_assignment PIN_C16 -to HEX0[3]
+set_location_assignment PIN_E16 -to HEX0[4]
+set_location_assignment PIN_D17 -to HEX0[5]
+set_location_assignment PIN_C17 -to HEX0[6]
+set_location_assignment PIN_D15 -to HEX0[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX0[*]
+
+# ---- Display HEX1 (decenas) -------------------------------------------------
+set_location_assignment PIN_C18 -to HEX1[0]
+set_location_assignment PIN_D18 -to HEX1[1]
+set_location_assignment PIN_E18 -to HEX1[2]
+set_location_assignment PIN_B16 -to HEX1[3]
+set_location_assignment PIN_A17 -to HEX1[4]
+set_location_assignment PIN_A18 -to HEX1[5]
+set_location_assignment PIN_B17 -to HEX1[6]
+set_location_assignment PIN_A16 -to HEX1[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX1[*]
+
+# ---- Semáforos y buzzer en el header GPIO (JP1) -----------------------------
+# GPIO[0] (pin 1) rojo vehicular      GPIO[3] (pin 4) rojo peatonal
+# GPIO[1] (pin 2) amarillo vehicular  GPIO[4] (pin 5) verde peatonal
+# GPIO[2] (pin 3) verde vehicular     GPIO[5] (pin 6) buzzer pasivo (tono)
+#                                     GPIO[6] (pin 7) buzzer activo (on/off)
+# GND = pin 12 (o 30) del header
+set_location_assignment PIN_V10 -to GPIO[0]
+set_location_assignment PIN_W10 -to GPIO[1]
+set_location_assignment PIN_V9  -to GPIO[2]
+set_location_assignment PIN_W9  -to GPIO[3]
+set_location_assignment PIN_V8  -to GPIO[4]
+set_location_assignment PIN_W8  -to GPIO[5]
+set_location_assignment PIN_V7  -to GPIO[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO[*]
+
+set_global_assignment -name LAST_QUARTUS_VERSION "25.1std.0 Lite Edition"

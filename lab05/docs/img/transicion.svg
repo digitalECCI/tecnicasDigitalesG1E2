@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="324" font-family="Consolas, monospace" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="22" font-size="15" font-weight="bold" font-family="Segoe UI, sans-serif">Transición VERDE -&gt; AMARILLO: con timer = 9 y tick, done = 1 y el estado cambia en el siguiente flanco</text>
+<line x1="820.0" y1="40" x2="820.0" y2="294" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="820.0" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">cambio de estado</text>
+<rect x="0" y="46" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="62.0" dominant-baseline="middle" fill="#1f2a3d">tick (1 Hz)</text>
+<rect x="281.9" y="52.0" width="13.1" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="544.4" y="52.0" width="13.1" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="806.9" y="52.0" width="13.1" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="1069.4" y="52.0" width="13.1" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<polyline points="190.0,72.0 281.9,72.0 281.9,52.0 295.0,52.0 295.0,72.0 544.4,72.0 544.4,52.0 557.5,52.0 557.5,72.0 806.9,72.0 806.9,52.0 820.0,52.0 820.0,72.0 1069.4,72.0 1069.4,52.0 1082.5,52.0 1082.5,72.0 1240.0,72.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="80" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="96.0" dominant-baseline="middle" fill="#1f2a3d">timer</text>
+<polygon points="190.0,96.0 193.0,86.0 292.0,86.0 295.0,96.0 292.0,106.0 193.0,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="242.5" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">7</text>
+<polygon points="295.0,96.0 298.0,86.0 554.5,86.0 557.5,96.0 554.5,106.0 298.0,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="426.2" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">8</text>
+<polygon points="557.5,96.0 560.5,86.0 817.0,86.0 820.0,96.0 817.0,106.0 560.5,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="688.8" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">9</text>
+<polygon points="820.0,96.0 823.0,86.0 1079.5,86.0 1082.5,96.0 1079.5,106.0 823.0,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="951.2" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">0</text>
+<polygon points="1082.5,96.0 1085.5,86.0 1237.0,86.0 1240.0,96.0 1237.0,106.0 1085.5,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1161.2" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">1</text>
+<rect x="0" y="114" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="130.0" dominant-baseline="middle" fill="#1f2a3d">done</text>
+<rect x="806.9" y="120.0" width="13.1" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<polyline points="190.0,140.0 806.9,140.0 806.9,120.0 820.0,120.0 820.0,140.0 1240.0,140.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="148" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="164.0" dominant-baseline="middle" fill="#1f2a3d">next_state</text>
+<polygon points="190.0,164.0 193.0,154.0 803.9,154.0 806.9,164.0 803.9,174.0 193.0,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="498.4" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">VERDE</text>
+<polygon points="806.9,164.0 809.9,154.0 1237.0,154.0 1240.0,164.0 1237.0,174.0 809.9,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1023.4" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">AMAR→ROJO</text>
+<rect x="0" y="182" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="198.0" dominant-baseline="middle" fill="#1f2a3d">state</text>
+<polygon points="190.0,198.0 193.0,188.0 817.0,188.0 820.0,198.0 817.0,208.0 193.0,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="505.0" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">VERDE</text>
+<polygon points="820.0,198.0 823.0,188.0 1237.0,188.0 1240.0,198.0 1237.0,208.0 823.0,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1030.0" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">AMAR→ROJO</text>
+<rect x="0" y="216" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="232.0" dominant-baseline="middle" fill="#1f2a3d">Vehicular VERDE</text>
+<rect x="190.0" y="222.0" width="630.0" height="20.0" fill="#2e7d32" fill-opacity="0.18"/>
+<polyline points="190.0,222.0 820.0,222.0 820.0,242.0 1240.0,242.0" fill="none" stroke="#2e7d32" stroke-width="1.6"/>
+<rect x="0" y="250" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="266.0" dominant-baseline="middle" fill="#1f2a3d">Vehicular AMARILLO</text>
+<rect x="820.0" y="256.0" width="420.0" height="20.0" fill="#f9a825" fill-opacity="0.18"/>
+<polyline points="190.0,276.0 820.0,276.0 820.0,256.0 1240.0,256.0" fill="none" stroke="#f9a825" stroke-width="1.6"/>
+<line x1="190" y1="292" x2="1240" y2="292" stroke="#888"/>
+<line x1="190.0" y1="292" x2="190.0" y2="296" stroke="#888"/>
+<text x="190.0" y="308" text-anchor="middle" fill="#555" font-size="10">7.92 s</text>
+<line x1="295.0" y1="292" x2="295.0" y2="296" stroke="#888"/>
+<text x="295.0" y="308" text-anchor="middle" fill="#555" font-size="10">8.32 s</text>
+<line x1="400.0" y1="292" x2="400.0" y2="296" stroke="#888"/>
+<text x="400.0" y="308" text-anchor="middle" fill="#555" font-size="10">8.72 s</text>
+<line x1="505.0" y1="292" x2="505.0" y2="296" stroke="#888"/>
+<text x="505.0" y="308" text-anchor="middle" fill="#555" font-size="10">9.12 s</text>
+<line x1="610.0" y1="292" x2="610.0" y2="296" stroke="#888"/>
+<text x="610.0" y="308" text-anchor="middle" fill="#555" font-size="10">9.53 s</text>
+<line x1="715.0" y1="292" x2="715.0" y2="296" stroke="#888"/>
+<text x="715.0" y="308" text-anchor="middle" fill="#555" font-size="10">9.93 s</text>
+<line x1="820.0" y1="292" x2="820.0" y2="296" stroke="#888"/>
+<text x="820.0" y="308" text-anchor="middle" fill="#555" font-size="10">10.32 s</text>
+<line x1="925.0" y1="292" x2="925.0" y2="296" stroke="#888"/>
+<text x="925.0" y="308" text-anchor="middle" fill="#555" font-size="10">10.72 s</text>
+<line x1="1030.0" y1="292" x2="1030.0" y2="296" stroke="#888"/>
+<text x="1030.0" y="308" text-anchor="middle" fill="#555" font-size="10">11.12 s</text>
+<line x1="1135.0" y1="292" x2="1135.0" y2="296" stroke="#888"/>
+<text x="1135.0" y="308" text-anchor="middle" fill="#555" font-size="10">11.53 s</text>
+<line x1="1240.0" y1="292" x2="1240.0" y2="296" stroke="#888"/>
+<text x="1240.0" y="308" text-anchor="middle" fill="#555" font-size="10">11.93 s</text>
+</svg>
