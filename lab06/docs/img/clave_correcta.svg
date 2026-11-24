@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="324" font-family="Consolas, monospace" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="22" font-size="15" font-weight="bold" font-family="Segoe UI, sans-serif">Escenario 1: clave correcta 3-A-7 -&gt; ABIERTA, LED verde y "AccESO"</text>
+<line x1="818.2" y1="40" x2="818.2" y2="294" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="818.2" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">ABIERTA</text>
+<rect x="0" y="46" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="62.0" dominant-baseline="middle" fill="#1f2a3d">KEY0 (enter)</text>
+<rect x="170.0" y="52.0" width="250.3" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="504.6" y="52.0" width="98.4" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="687.4" y="52.0" width="98.4" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="870.2" y="52.0" width="369.8" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<polyline points="170.0,52.0 420.3,52.0 420.3,72.0 504.6,72.0 504.6,52.0 603.1,52.0 603.1,72.0 687.4,72.0 687.4,52.0 785.8,52.0 785.8,72.0 870.2,72.0 870.2,52.0 1240.0,52.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="80" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="96.0" dominant-baseline="middle" fill="#1f2a3d">SW[3:0]</text>
+<polygon points="170.0,96.0 173.0,86.0 403.2,86.0 406.2,96.0 403.2,106.0 173.0,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="288.1" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">0</text>
+<polygon points="406.2,96.0 409.2,86.0 586.0,86.0 589.0,96.0 586.0,106.0 409.2,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="497.6" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">3</text>
+<polygon points="589.0,96.0 592.0,86.0 768.8,86.0 771.8,96.0 768.8,106.0 592.0,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="680.4" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">A</text>
+<polygon points="771.8,96.0 774.8,86.0 1237.0,86.0 1240.0,96.0 1237.0,106.0 774.8,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1005.9" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">7</text>
+<rect x="0" y="114" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="130.0" dominant-baseline="middle" fill="#1f2a3d">enter_pulse</text>
+<rect x="451.2" y="120.0" width="1.4" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="634.0" y="120.0" width="1.4" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<rect x="816.8" y="120.0" width="1.4" height="20.0" fill="#1565c0" fill-opacity="0.18"/>
+<polyline points="170.0,140.0 451.2,140.0 451.2,120.0 452.6,120.0 452.6,140.0 634.0,140.0 634.0,120.0 635.4,120.0 635.4,140.0 816.8,140.0 816.8,120.0 818.2,120.0 818.2,140.0 1240.0,140.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="148" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="164.0" dominant-baseline="middle" fill="#1f2a3d">FSM estado</text>
+<polygon points="170.0,164.0 173.0,154.0 449.6,154.0 452.6,164.0 449.6,174.0 173.0,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="311.3" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">DIG1</text>
+<polygon points="452.6,164.0 455.6,154.0 632.4,154.0 635.4,164.0 632.4,174.0 455.6,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="544.0" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">DIG2</text>
+<polygon points="635.4,164.0 638.4,154.0 815.2,154.0 818.2,164.0 815.2,174.0 638.4,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="726.8" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">DIG3</text>
+<polygon points="818.2,164.0 821.2,154.0 1237.0,154.0 1240.0,164.0 1237.0,174.0 821.2,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1029.1" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">ABIERTA</text>
+<rect x="0" y="182" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="198.0" dominant-baseline="middle" fill="#1f2a3d">HEX5..HEX0</text>
+<polygon points="170.0,198.0 173.0,188.0 406.0,188.0 409.0,198.0 406.0,208.0 173.0,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="289.5" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">"d1 O  "</text>
+<polygon points="409.0,198.0 412.0,188.0 449.6,188.0 452.6,198.0 449.6,208.0 412.0,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="452.6,198.0 455.6,188.0 587.4,188.0 590.4,198.0 587.4,208.0 455.6,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="521.5" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">"d2 -3 "</text>
+<polygon points="590.4,198.0 593.4,188.0 632.4,188.0 635.4,198.0 632.4,208.0 593.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="635.4,198.0 638.4,188.0 770.2,188.0 773.2,198.0 770.2,208.0 638.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="704.3" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">"d3 --A"</text>
+<polygon points="773.2,198.0 776.2,188.0 815.2,188.0 818.2,198.0 815.2,208.0 776.2,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="818.2,198.0 821.2,188.0 1237.0,188.0 1240.0,198.0 1237.0,208.0 821.2,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1029.1" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f" xml:space="preserve">"AccESO"</text>
+<rect x="0" y="216" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="232.0" dominant-baseline="middle" fill="#1f2a3d">LED verde</text>
+<rect x="818.2" y="222.0" width="421.8" height="20.0" fill="#2e7d32" fill-opacity="0.18"/>
+<polyline points="170.0,242.0 818.2,242.0 818.2,222.0 1240.0,222.0" fill="none" stroke="#2e7d32" stroke-width="1.6"/>
+<rect x="0" y="250" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="266.0" dominant-baseline="middle" fill="#1f2a3d">servo_open</text>
+<rect x="818.2" y="256.0" width="421.8" height="20.0" fill="#e65100" fill-opacity="0.18"/>
+<polyline points="170.0,276.0 818.2,276.0 818.2,256.0 1240.0,256.0" fill="none" stroke="#e65100" stroke-width="1.6"/>
+<line x1="170" y1="292" x2="1240" y2="292" stroke="#888"/>
+<line x1="170.0" y1="292" x2="170.0" y2="296" stroke="#888"/>
+<text x="170.0" y="308" text-anchor="middle" fill="#555" font-size="10">39996.8 us</text>
+<line x1="277.0" y1="292" x2="277.0" y2="296" stroke="#888"/>
+<text x="277.0" y="308" text-anchor="middle" fill="#555" font-size="10">39998.3 us</text>
+<line x1="384.0" y1="292" x2="384.0" y2="296" stroke="#888"/>
+<text x="384.0" y="308" text-anchor="middle" fill="#555" font-size="10">39999.9 us</text>
+<line x1="491.0" y1="292" x2="491.0" y2="296" stroke="#888"/>
+<text x="491.0" y="308" text-anchor="middle" fill="#555" font-size="10">40001.4 us</text>
+<line x1="598.0" y1="292" x2="598.0" y2="296" stroke="#888"/>
+<text x="598.0" y="308" text-anchor="middle" fill="#555" font-size="10">40002.9 us</text>
+<line x1="705.0" y1="292" x2="705.0" y2="296" stroke="#888"/>
+<text x="705.0" y="308" text-anchor="middle" fill="#555" font-size="10">40004.4 us</text>
+<line x1="812.0" y1="292" x2="812.0" y2="296" stroke="#888"/>
+<text x="812.0" y="308" text-anchor="middle" fill="#555" font-size="10">40005.9 us</text>
+<line x1="919.0" y1="292" x2="919.0" y2="296" stroke="#888"/>
+<text x="919.0" y="308" text-anchor="middle" fill="#555" font-size="10">40007.5 us</text>
+<line x1="1026.0" y1="292" x2="1026.0" y2="296" stroke="#888"/>
+<text x="1026.0" y="308" text-anchor="middle" fill="#555" font-size="10">40009.0 us</text>
+<line x1="1133.0" y1="292" x2="1133.0" y2="296" stroke="#888"/>
+<text x="1133.0" y="308" text-anchor="middle" fill="#555" font-size="10">40010.5 us</text>
+<line x1="1240.0" y1="292" x2="1240.0" y2="296" stroke="#888"/>
+<text x="1240.0" y="308" text-anchor="middle" fill="#555" font-size="10">40012.0 us</text>
+</svg>

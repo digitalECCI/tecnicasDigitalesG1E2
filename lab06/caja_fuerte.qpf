@@ -1,0 +1,6 @@
+QUARTUS_VERSION = "25.1"
+DATE = "23:00:00  November 23, 2026"
+
+# Revisions
+
+PROJECT_REVISION = "caja_fuerte"

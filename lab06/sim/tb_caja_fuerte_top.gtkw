@@ -1,0 +1,31 @@
+[*] Vista de GTKWave para tb_caja_fuerte_top.vcd (sim\run_sim.bat wave)
+[timestart] 0
+@200
+-Entradas
+@28
+tb_caja_fuerte_top.KEY[1:0]
+@22
+tb_caja_fuerte_top.SW[9:0]
+@28
+tb_caja_fuerte_top.dut.key0_press
+tb_caja_fuerte_top.dut.key1_press
+tb_caja_fuerte_top.dut.enter_pulse
+@200
+-FSM
+@24
+tb_caja_fuerte_top.dut.state[2:0]
+tb_caja_fuerte_top.dut.attempts_left[1:0]
+@28
+tb_caja_fuerte_top.dut.error
+@200
+-Salidas
+@820
+tb_caja_fuerte_top.msg[47:0]
+@28
+tb_caja_fuerte_top.green
+tb_caja_fuerte_top.red
+tb_caja_fuerte_top.dut.servo_open
+@24
+tb_caja_fuerte_top.dut.u_pwm.width[19:0]
+@28
+tb_caja_fuerte_top.pwm
