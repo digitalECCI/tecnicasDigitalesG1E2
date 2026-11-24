@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="460" font-family="Consolas, monospace" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="22" font-size="15" font-weight="bold" font-family="Segoe UI, sans-serif">FPGA -&gt; PC: SW = 1023, se pulsa KEY0 y se transmite "1023\r\n"</text>
+<rect x="0" y="46" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="62.0" dominant-baseline="middle" fill="#1f2a3d">KEY0 (enviar)</text>
+<polyline points="190.0,52.0 190.2,52.0 190.2,52.0 191.1,52.0 191.1,72.0 223.4,72.0 223.4,52.0 1240.0,52.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="80" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="96.0" dominant-baseline="middle" fill="#1f2a3d">SW (decimal)</text>
+<polygon points="190.0,96.0 190.2,86.0 190.2,86.0 190.3,96.0 190.2,106.0 190.2,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="190.3,96.0 193.3,86.0 1237.0,86.0 1240.0,96.0 1237.0,106.0 193.3,106.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="715.2" y="96.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">1023</text>
+<rect x="0" y="114" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="130.0" dominant-baseline="middle" fill="#1f2a3d">send_press</text>
+<polyline points="190.0,140.0 190.0,140.0 190.0,140.0 194.4,140.0 194.4,120.0 194.4,120.0 194.4,140.0 1240.0,140.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="148" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="164.0" dominant-baseline="middle" fill="#1f2a3d">tx_value</text>
+<polygon points="190.0,164.0 190.0,154.0 190.0,154.0 190.0,164.0 190.0,174.0 190.0,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="190.0,164.0 192.2,154.0 192.2,154.0 194.4,164.0 192.2,174.0 192.2,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="194.4,164.0 197.4,154.0 1237.0,154.0 1240.0,164.0 1237.0,174.0 197.4,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="717.2" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">1023</text>
+<rect x="0" y="182" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="198.0" dominant-baseline="middle" fill="#1f2a3d">FSM secuenciador</text>
+<polygon points="190.0,198.0 190.0,188.0 190.0,188.0 190.0,198.0 190.0,208.0 190.0,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="190.0,198.0 192.2,188.0 192.2,188.0 194.4,198.0 192.2,208.0 192.2,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="194.4,198.0 194.4,188.0 194.4,188.0 194.4,198.0 194.4,208.0 194.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="194.4,198.0 194.4,188.0 194.4,188.0 194.4,198.0 194.4,208.0 194.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="194.4,198.0 197.4,188.0 372.3,188.0 375.3,198.0 372.3,208.0 197.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="284.8" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">WAIT</text>
+<polygon points="375.3,198.0 375.3,188.0 375.3,188.0 375.3,198.0 375.3,208.0 375.3,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="375.3,198.0 378.3,188.0 557.3,188.0 560.3,198.0 557.3,208.0 378.3,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="467.8" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">WAIT</text>
+<polygon points="560.3,198.0 560.3,188.0 560.3,188.0 560.3,198.0 560.3,208.0 560.3,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="560.3,198.0 563.3,188.0 742.4,188.0 745.4,198.0 742.4,208.0 563.3,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="652.9" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">WAIT</text>
+<polygon points="745.4,198.0 745.4,188.0 745.4,188.0 745.4,198.0 745.4,208.0 745.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="745.4,198.0 748.4,188.0 927.5,188.0 930.5,198.0 927.5,208.0 748.4,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="838.0" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">WAIT</text>
+<polygon points="930.5,198.0 930.5,188.0 930.5,188.0 930.5,198.0 930.5,208.0 930.5,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="930.5,198.0 933.5,188.0 1112.6,188.0 1115.6,198.0 1112.6,208.0 933.5,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1023.1" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">WAIT</text>
+<polygon points="1115.6,198.0 1115.6,188.0 1115.6,188.0 1115.6,198.0 1115.6,208.0 1115.6,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="1115.6,198.0 1118.6,188.0 1237.0,188.0 1240.0,198.0 1237.0,208.0 1118.6,208.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1177.8" y="198.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">WAIT</text>
+<rect x="0" y="216" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="232.0" dominant-baseline="middle" fill="#1f2a3d">idx (byte)</text>
+<polygon points="190.0,232.0 190.0,222.0 190.0,222.0 190.0,232.0 190.0,242.0 190.0,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="190.0,232.0 193.0,222.0 372.3,222.0 375.3,232.0 372.3,242.0 193.0,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="282.6" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">0</text>
+<polygon points="375.3,232.0 378.3,222.0 557.3,222.0 560.3,232.0 557.3,242.0 378.3,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="467.8" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">1</text>
+<polygon points="560.3,232.0 563.3,222.0 742.4,222.0 745.4,232.0 742.4,242.0 563.3,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="652.9" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">2</text>
+<polygon points="745.4,232.0 748.4,222.0 927.5,222.0 930.5,232.0 927.5,242.0 748.4,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="838.0" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">3</text>
+<polygon points="930.5,232.0 933.5,222.0 1112.6,222.0 1115.6,232.0 1112.6,242.0 933.5,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1023.1" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">4</text>
+<polygon points="1115.6,232.0 1118.6,222.0 1237.0,222.0 1240.0,232.0 1237.0,242.0 1118.6,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1177.8" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">5</text>
+<rect x="0" y="250" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="266.0" dominant-baseline="middle" fill="#1f2a3d">tx_data</text>
+<polygon points="190.0,266.0 190.0,256.0 190.0,256.0 190.0,266.0 190.0,276.0 190.0,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="190.0,266.0 192.2,256.0 192.2,256.0 194.4,266.0 192.2,276.0 192.2,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="194.4,266.0 197.4,256.0 372.3,256.0 375.3,266.0 372.3,276.0 197.4,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="284.8" y="266.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">'1'</text>
+<polygon points="375.3,266.0 378.3,256.0 557.3,256.0 560.3,266.0 557.3,276.0 378.3,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="467.8" y="266.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">'0'</text>
+<polygon points="560.3,266.0 563.3,256.0 742.4,256.0 745.4,266.0 742.4,276.0 563.3,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="652.9" y="266.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">'2'</text>
+<polygon points="745.4,266.0 748.4,256.0 927.5,256.0 930.5,266.0 927.5,276.0 748.4,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="838.0" y="266.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">'3'</text>
+<polygon points="930.5,266.0 933.5,256.0 1112.6,256.0 1115.6,266.0 1112.6,276.0 933.5,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1023.1" y="266.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">\r</text>
+<polygon points="1115.6,266.0 1118.6,256.0 1237.0,256.0 1240.0,266.0 1237.0,276.0 1118.6,276.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1177.8" y="266.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">\n</text>
+<rect x="0" y="284" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="300.0" dominant-baseline="middle" fill="#1f2a3d">tx_start</text>
+<polyline points="190.0,310.0 190.0,310.0 190.0,310.0 194.4,310.0 194.4,290.0 194.4,290.0 194.4,310.0 375.3,310.0 375.3,290.0 375.3,290.0 375.3,310.0 560.3,310.0 560.3,290.0 560.3,290.0 560.3,310.0 745.4,310.0 745.4,290.0 745.4,290.0 745.4,310.0 930.5,310.0 930.5,290.0 930.5,290.0 930.5,310.0 1115.6,310.0 1115.6,290.0 1115.6,290.0 1115.6,310.0 1240.0,310.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="318" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="334.0" dominant-baseline="middle" fill="#1f2a3d">tx_done</text>
+<polyline points="190.0,344.0 190.0,344.0 190.0,344.0 375.3,344.0 375.3,324.0 375.3,324.0 375.3,344.0 560.3,344.0 560.3,324.0 560.3,324.0 560.3,344.0 745.4,344.0 745.4,324.0 745.4,324.0 745.4,344.0 930.5,344.0 930.5,324.0 930.5,324.0 930.5,344.0 1115.6,344.0 1115.6,324.0 1115.6,324.0 1115.6,344.0 1240.0,344.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="352" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="368.0" dominant-baseline="middle" fill="#1f2a3d">FSM uart_tx</text>
+<polygon points="190.0,368.0 190.0,358.0 190.0,358.0 190.0,368.0 190.0,378.0 190.0,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="190.0,368.0 193.0,358.0 204.0,358.0 207.0,368.0 204.0,378.0 193.0,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="207.0,368.0 210.0,358.0 220.8,358.0 223.8,368.0 220.8,378.0 210.0,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="223.8,368.0 226.8,358.0 355.4,358.0 358.4,368.0 355.4,378.0 226.8,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="291.1" y="368.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<polygon points="358.4,368.0 361.4,358.0 372.3,358.0 375.3,368.0 372.3,378.0 361.4,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="375.3,368.0 378.3,358.0 389.1,358.0 392.1,368.0 389.1,378.0 378.3,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="392.1,368.0 395.1,358.0 405.9,358.0 408.9,368.0 405.9,378.0 395.1,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="408.9,368.0 411.9,358.0 540.5,358.0 543.5,368.0 540.5,378.0 411.9,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="476.2" y="368.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<polygon points="543.5,368.0 546.5,358.0 557.3,358.0 560.3,368.0 557.3,378.0 546.5,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="560.3,368.0 563.3,358.0 574.2,358.0 577.2,368.0 574.2,378.0 563.3,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="577.2,368.0 580.2,358.0 591.0,358.0 594.0,368.0 591.0,378.0 580.2,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="594.0,368.0 597.0,358.0 725.6,358.0 728.6,368.0 725.6,378.0 597.0,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="661.3" y="368.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<polygon points="728.6,368.0 731.6,358.0 742.4,358.0 745.4,368.0 742.4,378.0 731.6,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="745.4,368.0 748.4,358.0 759.2,358.0 762.2,368.0 759.2,378.0 748.4,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="762.2,368.0 765.2,358.0 776.1,358.0 779.1,368.0 776.1,378.0 765.2,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="779.1,368.0 782.1,358.0 910.7,358.0 913.7,368.0 910.7,378.0 782.1,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="846.4" y="368.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<polygon points="913.7,368.0 916.7,358.0 927.5,358.0 930.5,368.0 927.5,378.0 916.7,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="930.5,368.0 933.5,358.0 944.3,358.0 947.3,368.0 944.3,378.0 933.5,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="947.3,368.0 950.3,358.0 961.2,358.0 964.2,368.0 961.2,378.0 950.3,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="964.2,368.0 967.2,358.0 1095.8,358.0 1098.8,368.0 1095.8,378.0 967.2,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1031.5" y="368.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<polygon points="1098.8,368.0 1101.8,358.0 1112.6,358.0 1115.6,368.0 1112.6,378.0 1101.8,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="1115.6,368.0 1118.6,358.0 1129.4,358.0 1132.4,368.0 1129.4,378.0 1118.6,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="1132.4,368.0 1135.4,358.0 1146.2,358.0 1149.2,368.0 1146.2,378.0 1135.4,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<polygon points="1149.2,368.0 1152.2,358.0 1237.0,358.0 1240.0,368.0 1237.0,378.0 1152.2,378.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1194.6" y="368.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<rect x="0" y="386" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="402.0" dominant-baseline="middle" fill="#1f2a3d">GPIO_TX</text>
+<polyline points="190.0,412.0 190.0,412.0 190.0,392.0 207.0,392.0 207.0,412.0 223.8,412.0 223.8,392.0 240.6,392.0 240.6,412.0 291.1,412.0 291.1,392.0 324.8,392.0 324.8,412.0 358.4,412.0 358.4,392.0 392.1,392.0 392.1,412.0 476.2,412.0 476.2,392.0 509.9,392.0 509.9,412.0 543.5,412.0 543.5,392.0 577.2,392.0 577.2,412.0 610.8,412.0 610.8,392.0 627.6,392.0 627.6,412.0 661.3,412.0 661.3,392.0 694.9,392.0 694.9,412.0 728.6,412.0 728.6,392.0 762.2,392.0 762.2,412.0 779.1,412.0 779.1,392.0 812.7,392.0 812.7,412.0 846.4,412.0 846.4,392.0 880.0,392.0 880.0,412.0 913.7,412.0 913.7,392.0 947.3,392.0 947.3,412.0 964.2,412.0 964.2,392.0 981.0,392.0 981.0,412.0 997.8,412.0 997.8,392.0 1031.5,392.0 1031.5,412.0 1098.8,412.0 1098.8,392.0 1132.4,392.0 1132.4,412.0 1166.1,412.0 1166.1,392.0 1182.9,392.0 1182.9,412.0 1199.7,412.0 1199.7,392.0 1216.5,392.0 1216.5,412.0 1240.0,412.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<line x1="190" y1="428" x2="1240" y2="428" stroke="#888"/>
+<line x1="190.0" y1="428" x2="190.0" y2="432" stroke="#888"/>
+<text x="190.0" y="444" text-anchor="middle" fill="#555" font-size="10">0.000 ms</text>
+<line x1="295.0" y1="428" x2="295.0" y2="432" stroke="#888"/>
+<text x="295.0" y="444" text-anchor="middle" fill="#555" font-size="10">0.650 ms</text>
+<line x1="400.0" y1="428" x2="400.0" y2="432" stroke="#888"/>
+<text x="400.0" y="444" text-anchor="middle" fill="#555" font-size="10">1.300 ms</text>
+<line x1="505.0" y1="428" x2="505.0" y2="432" stroke="#888"/>
+<text x="505.0" y="444" text-anchor="middle" fill="#555" font-size="10">1.950 ms</text>
+<line x1="610.0" y1="428" x2="610.0" y2="432" stroke="#888"/>
+<text x="610.0" y="444" text-anchor="middle" fill="#555" font-size="10">2.600 ms</text>
+<line x1="715.0" y1="428" x2="715.0" y2="432" stroke="#888"/>
+<text x="715.0" y="444" text-anchor="middle" fill="#555" font-size="10">3.250 ms</text>
+<line x1="820.0" y1="428" x2="820.0" y2="432" stroke="#888"/>
+<text x="820.0" y="444" text-anchor="middle" fill="#555" font-size="10">3.900 ms</text>
+<line x1="925.0" y1="428" x2="925.0" y2="432" stroke="#888"/>
+<text x="925.0" y="444" text-anchor="middle" fill="#555" font-size="10">4.550 ms</text>
+<line x1="1030.0" y1="428" x2="1030.0" y2="432" stroke="#888"/>
+<text x="1030.0" y="444" text-anchor="middle" fill="#555" font-size="10">5.200 ms</text>
+<line x1="1135.0" y1="428" x2="1135.0" y2="432" stroke="#888"/>
+<text x="1135.0" y="444" text-anchor="middle" fill="#555" font-size="10">5.850 ms</text>
+<line x1="1240.0" y1="428" x2="1240.0" y2="432" stroke="#888"/>
+<text x="1240.0" y="444" text-anchor="middle" fill="#555" font-size="10">6.500 ms</text>
+</svg>

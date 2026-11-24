@@ -1,0 +1,20 @@
+# Quartus: archivos generados
+db/
+incremental_db/
+output_files/*
+!output_files/proyecto_uart.sof
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.pin
+*.jdi
+*.sld
+greybox_tmp/
+simulation/
+
+# Simulación: archivos generados
+sim/*.vvp
+sim/*.vcd
+build/

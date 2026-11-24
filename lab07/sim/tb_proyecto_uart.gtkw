@@ -1,0 +1,44 @@
+[*] Vista de GTKWave para tb_proyecto_uart.vcd (sim\run_sim.bat wave)
+[timestart] 0
+@200
+-FPGA -> PC
+@28
+tb_proyecto_uart.KEY[1:0]
+@24
+tb_proyecto_uart.SW[9:0]
+@28
+tb_proyecto_uart.dut.send_press
+@24
+tb_proyecto_uart.dut.tx_value[9:0]
+@28
+tb_proyecto_uart.dut.q_state[1:0]
+tb_proyecto_uart.dut.idx[2:0]
+@820
+tb_proyecto_uart.dut.tx_data[7:0]
+@28
+tb_proyecto_uart.dut.tx_start
+tb_proyecto_uart.dut.tx_done
+tb_proyecto_uart.dut.u_tx.state[1:0]
+tb_proyecto_uart.dut.u_tx.bit_cnt[2:0]
+tb_proyecto_uart.GPIO_TX
+@200
+-PC -> FPGA
+@28
+tb_proyecto_uart.GPIO_RX
+tb_proyecto_uart.dut.u_rx.rx_s
+tb_proyecto_uart.dut.u_rx.state[1:0]
+tb_proyecto_uart.dut.u_rx.bit_cnt[2:0]
+@820
+tb_proyecto_uart.dut.rx_data[7:0]
+@28
+tb_proyecto_uart.dut.rx_done
+tb_proyecto_uart.dut.frame_err
+@24
+tb_proyecto_uart.dut.u_dec2bin.acc[10:0]
+@28
+tb_proyecto_uart.dut.rx_valid
+tb_proyecto_uart.dut.rx_overflow
+@24
+tb_proyecto_uart.LEDR[9:0]
+@22
+tb_proyecto_uart.LEDR[9:0]

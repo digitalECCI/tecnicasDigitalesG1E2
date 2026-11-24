@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="290" font-family="Consolas, monospace" font-size="12">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="22" font-size="15" font-weight="bold" font-family="Segoe UI, sans-serif">Trama RX del carácter '5' (0x35 = 0011 0101): cada bit se muestrea en su centro</text>
+<line x1="284.6" y1="40" x2="284.6" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="284.6" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">START</text>
+<line x1="379.2" y1="40" x2="379.2" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="379.2" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D0</text>
+<line x1="473.8" y1="40" x2="473.8" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="473.8" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D1</text>
+<line x1="568.4" y1="40" x2="568.4" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="568.4" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D2</text>
+<line x1="663.0" y1="40" x2="663.0" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="663.0" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D3</text>
+<line x1="757.6" y1="40" x2="757.6" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="757.6" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D4</text>
+<line x1="852.2" y1="40" x2="852.2" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="852.2" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D5</text>
+<line x1="946.8" y1="40" x2="946.8" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="946.8" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D6</text>
+<line x1="1041.4" y1="40" x2="1041.4" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="1041.4" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">D7</text>
+<line x1="1135.9" y1="40" x2="1135.9" y2="260" stroke="#d0d7e2" stroke-dasharray="3,3"/>
+<text x="1135.9" y="37" text-anchor="middle" fill="#5a6b85" font-size="10">STOP</text>
+<rect x="0" y="46" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="62.0" dominant-baseline="middle" fill="#1f2a3d">GPIO_RX</text>
+<polyline points="190.0,52.0 237.3,52.0 237.3,72.0 331.9,72.0 331.9,52.0 426.5,52.0 426.5,72.0 521.1,72.0 521.1,52.0 615.7,52.0 615.7,72.0 710.3,72.0 710.3,52.0 899.5,52.0 899.5,72.0 1088.6,72.0 1088.6,52.0 1240.0,52.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="80" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="96.0" dominant-baseline="middle" fill="#1f2a3d">rx_s (sincroniz.)</text>
+<polyline points="190.0,86.0 237.3,86.0 237.3,106.0 331.9,106.0 331.9,86.0 426.5,86.0 426.5,106.0 521.1,106.0 521.1,86.0 615.7,86.0 615.7,106.0 710.3,106.0 710.3,86.0 899.5,86.0 899.5,106.0 1088.7,106.0 1088.7,86.0 1240.0,86.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="114" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="130.0" dominant-baseline="middle" fill="#1f2a3d">FSM uart_rx</text>
+<polygon points="190.0,130.0 193.0,120.0 234.3,120.0 237.3,130.0 234.3,140.0 193.0,140.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="213.7" y="130.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">IDLE</text>
+<polygon points="237.3,130.0 240.3,120.0 279.8,120.0 282.8,130.0 279.8,140.0 240.3,140.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="260.1" y="130.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">START</text>
+<polygon points="282.8,130.0 285.8,120.0 1037.7,120.0 1040.7,130.0 1037.7,140.0 285.8,140.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="661.7" y="130.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">DATA</text>
+<polygon points="1040.7,130.0 1043.7,120.0 1132.4,120.0 1135.4,130.0 1132.4,140.0 1043.7,140.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1088.0" y="130.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">STOP</text>
+<polygon points="1135.4,130.0 1138.4,120.0 1237.0,120.0 1240.0,130.0 1237.0,140.0 1138.4,140.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1187.7" y="130.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">IDLE</text>
+<rect x="0" y="148" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="164.0" dominant-baseline="middle" fill="#1f2a3d">bit_cnt</text>
+<polygon points="190.0,164.0 193.0,154.0 374.5,154.0 377.5,164.0 374.5,174.0 193.0,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="283.8" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">0</text>
+<polygon points="377.5,164.0 380.5,154.0 469.3,154.0 472.3,164.0 469.3,174.0 380.5,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="424.9" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">1</text>
+<polygon points="472.3,164.0 475.3,154.0 564.0,154.0 567.0,164.0 564.0,174.0 475.3,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="519.6" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">2</text>
+<polygon points="567.0,164.0 570.0,154.0 658.7,154.0 661.7,164.0 658.7,174.0 570.0,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="614.4" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">3</text>
+<polygon points="661.7,164.0 664.7,154.0 753.5,154.0 756.5,164.0 753.5,174.0 664.7,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="709.1" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">4</text>
+<polygon points="756.5,164.0 759.5,154.0 848.2,154.0 851.2,164.0 848.2,174.0 759.5,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="803.8" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">5</text>
+<polygon points="851.2,164.0 854.2,154.0 942.9,154.0 945.9,164.0 942.9,174.0 854.2,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="898.6" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">6</text>
+<polygon points="945.9,164.0 948.9,154.0 1237.0,154.0 1240.0,164.0 1237.0,174.0 948.9,174.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1093.0" y="164.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">7</text>
+<rect x="0" y="182" width="1250" height="34" fill="#f5f7fb"/>
+<text x="10" y="198.0" dominant-baseline="middle" fill="#1f2a3d">rx_done</text>
+<polyline points="190.0,208.0 1135.4,208.0 1135.4,188.0 1135.4,188.0 1135.4,208.0 1240.0,208.0" fill="none" stroke="#1565c0" stroke-width="1.6"/>
+<rect x="0" y="216" width="1250" height="34" fill="#ffffff"/>
+<text x="10" y="232.0" dominant-baseline="middle" fill="#1f2a3d">rx_data</text>
+<polygon points="190.0,232.0 193.0,222.0 1132.4,222.0 1135.4,232.0 1132.4,242.0 193.0,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="662.7" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">00</text>
+<polygon points="1135.4,232.0 1138.4,222.0 1237.0,222.0 1240.0,232.0 1237.0,242.0 1138.4,242.0" fill="#e3f0e8" stroke="#2e7d32" stroke-width="1"/>
+<text x="1187.7" y="232.0" text-anchor="middle" dominant-baseline="middle" fill="#1b4d1f">'5'</text>
+<line x1="190" y1="258" x2="1240" y2="258" stroke="#888"/>
+<line x1="190.0" y1="258" x2="190.0" y2="262" stroke="#888"/>
+<text x="190.0" y="274" text-anchor="middle" fill="#555" font-size="10">24583.6 us</text>
+<line x1="295.0" y1="258" x2="295.0" y2="262" stroke="#888"/>
+<text x="295.0" y="274" text-anchor="middle" fill="#555" font-size="10">24699.2 us</text>
+<line x1="400.0" y1="258" x2="400.0" y2="262" stroke="#888"/>
+<text x="400.0" y="274" text-anchor="middle" fill="#555" font-size="10">24814.8 us</text>
+<line x1="505.0" y1="258" x2="505.0" y2="262" stroke="#888"/>
+<text x="505.0" y="274" text-anchor="middle" fill="#555" font-size="10">24930.5 us</text>
+<line x1="610.0" y1="258" x2="610.0" y2="262" stroke="#888"/>
+<text x="610.0" y="274" text-anchor="middle" fill="#555" font-size="10">25046.1 us</text>
+<line x1="715.0" y1="258" x2="715.0" y2="262" stroke="#888"/>
+<text x="715.0" y="274" text-anchor="middle" fill="#555" font-size="10">25161.7 us</text>
+<line x1="820.0" y1="258" x2="820.0" y2="262" stroke="#888"/>
+<text x="820.0" y="274" text-anchor="middle" fill="#555" font-size="10">25277.3 us</text>
+<line x1="925.0" y1="258" x2="925.0" y2="262" stroke="#888"/>
+<text x="925.0" y="274" text-anchor="middle" fill="#555" font-size="10">25393.0 us</text>
+<line x1="1030.0" y1="258" x2="1030.0" y2="262" stroke="#888"/>
+<text x="1030.0" y="274" text-anchor="middle" fill="#555" font-size="10">25508.6 us</text>
+<line x1="1135.0" y1="258" x2="1135.0" y2="262" stroke="#888"/>
+<text x="1135.0" y="274" text-anchor="middle" fill="#555" font-size="10">25624.2 us</text>
+<line x1="1240.0" y1="258" x2="1240.0" y2="262" stroke="#888"/>
+<text x="1240.0" y="274" text-anchor="middle" fill="#555" font-size="10">25739.8 us</text>
+</svg>
